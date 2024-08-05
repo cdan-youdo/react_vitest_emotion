@@ -2,8 +2,8 @@ import React from 'react'
 import {render, screen} from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
 
-// import { ThemeProvider } from '@mui/material/styles'
-import { ThemeProvider } from '@emotion/react'
+import { ThemeProvider } from '@mui/material/styles'
+// import { ThemeProvider } from '@emotion/react'
 
 import { default as StyledDiv } from './StyledDiv'
 import { theme } from '../styles/theme'
